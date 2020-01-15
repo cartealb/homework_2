@@ -11,7 +11,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    text-shadow: #808080, 5px, 5px;
+    text-shadow: 5px 5px #808080;
 }
 
 p {
@@ -46,10 +46,13 @@ div {
     text-align: right;
 }
 
-#yellow h2,
+#yellow h2 {
+    color: black;
+    text-shadow: 5px 5px #c7e2c7;
+}
+
 #yellow p {
     color: black;
-    text-shadow: #c7e2c7, 5px, 5px;
 }
 
 #green {
